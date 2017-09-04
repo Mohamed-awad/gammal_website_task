@@ -1,0 +1,402 @@
+/* start global*/
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+h2, h3 {color: #555;}
+/* end global*/
+/* start header */
+.header {
+	background: url('../imgs/img1.png');
+	position: relative;
+	background-size: cover;
+}
+.header .overlay {
+	background-color: rgba(8, 8, 8, .5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+.header .overlay h1{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.header .bx-wrapper {
+	height: 60%;
+	box-shadow: none;
+	border: 0;
+	background: none;
+}
+.header .bx-wrapper .bx-viewport {
+	height: 100% !important;
+	text-align: center;
+}
+.header .bxslider {height: 100%;}
+.header .bxslider li {display: block;}
+.header .bxslider li h2 {
+	color: #2ecc71;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.header .bxslider li img {margin: auto;}
+/* end header*/
+/* Start navbar */
+.navbar {
+	background-color: #252f31;
+	color: #fff;
+	overflow: hidden;
+	text-transform: uppercase;
+	margin: 0;
+}
+.navbar h2 {margin: 15px 0;}
+.navbar h2 span{color: #2ecc71;}
+.navbar ul {
+	margin: 10px 0;
+	list-style: none;
+	padding-left: 0px;
+	overflow: hidden;
+	float: right;
+}
+.navbar ul li {float: left;padding: 10px;}
+.navbar ul li a {color: #fff;text-decoration: none;}
+.navbar ul li.active a,
+.navbar ul li a:hover {color: #30B576;}
+/* end navbar */
+
+/* start about me*/
+.about-me {background-color: #fff;overflow: hidden;}
+.about-me .image {
+	width: 40%;
+	height: 570px;
+	margin: 0px;
+	padding: 0px;
+	background: url(../imgs/img5.jpg);
+}
+.about-me .image img {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 410px;
+}
+.about-me .info {width: 60%;margin: 0;}
+.about-me .info h2 {margin: 20px 0 20px 40px;}
+.about-me .info > p {color: #888;margin: 0 0 10px 40px;}
+.about-me .info > p:last-of-type {margin-top: 30px;}
+.about-me .info .hobbies {overflow: hidden;margin: 10px 0 0 10px;}
+.about-me .info .hobbies .content {
+	float: left;
+	width: 50%;
+	min-height: 100px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.about-me .info .hobbies .content h3 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.about-me .info .hobbies .content .icon {
+	float: left;
+	width: 12%;
+	margin-right: 5%;
+	color: #5BC725;
+}
+.about-me .info .hobbies .content .icon i {
+	max-width: 100%;
+	margin: 0 10px 0 0;
+}
+.about-me .info .hobbies .content .text{
+	float: left;
+	width: 80%;
+	padding-left: 3%;
+}
+.about-me .info .hobbies .content .text p {
+	color: #888;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+/* end about me*/
+
+/* Start Camps */
+.camp {
+	background-color: #F1F1F1;
+	margin: 0 0 40px 0;
+	overflow: hidden
+}
+#ze {background-color: #FFF;}
+.camp .camp-info {
+	float: left;
+	width: 60%;
+	text-align: center;
+	margin: 30px 1% 60px 0;
+}
+.camp .camp-info .content {
+	text-align: center;
+}
+.camp .camp-info span {
+	display: block;
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: 1px solid #979797;
+	margin: 10px 0 0 0;
+}
+.camp .camp-video {
+	float: left;
+	width: 39%;
+	margin: 100px 0 60px 0;
+	padding: 20px 0px 0 20px;
+	text-align: right;
+}
+.camp .camp-video:nth-of-type(1) {
+	text-align: left;
+	padding: 20px 20px 0 0;
+}
+/* End Camps */
+/* Start events */
+.our-events {padding: 0 ;}
+.our-events ul {margin-top: 40px;}
+.our-events ul li {
+	display: inline-block;
+	border: 2px solid #AAA;
+	padding: 10px;
+	border-radius: 5px;
+	color: #AAA;
+	margin-right: 10px;
+}
+.our-events ul li.selected {
+	color: #fff;
+	background-color: #1abc9c;
+	border: 2px solid #1abc9c;
+}
+.our-events .gallery {margin-top: 50px;overflow: hidden;}
+.our-events .gallery .col-1 {
+	width: 32.66666667%;
+	overflow: hidden;
+	margin-right: 1%;
+	position: relative;
+}
+.our-events .gallery .col-1 .over {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 232px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	background-color: rgba(26, 188, 156, .9);
+	display: none;
+}
+.our-events .gallery .col-1:hover .over {display: block;}
+.our-events .gallery .col-2 {
+	width: 66.33333333%;
+	overflow: hidden;
+}
+.our-events .gallery .col-1 img {width: 100%;}
+.our-events .gallery .row1 > div:nth-child(1) {
+	margin-right: 2%;
+}
+.our-events .gallery .row1 > div {
+	width: 49%;
+	float: left;
+	margin-bottom: 15px;
+	position: relative;
+}
+.our-events .gallery .row1 > div .over {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 232px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	background-color: rgba(26, 188, 156, .9);
+	display: none;
+}
+.our-events .gallery .row1 > div:hover .over {display: block;}
+.our-events .gallery .row1 > div img {width: 100%;}
+.our-events .mix {display: none;}
+.our-events .shuffle li {cursor: pointer;}
+/* End events */
+/* Start comming-Camps */
+.comming-camps {
+	background-color: #F1F1F1;
+	margin: 30px 0;
+	overflow: hidden;
+	text-align: center;
+}
+.comming-camps h2 {margin-bottom: 30px;}
+.comming-camps .new-camp {
+	float: left;
+	width: 32.6666667%;
+	background-color: #fff;
+    margin: 0 0 20px 0;
+}
+.comming-camps .new-camp:nth-of-type(2) {margin: 0 1%;}
+.comming-camps .new-camp h3 {font-size: 30px;text-align: center;}
+.comming-camps .new-camp p {
+	font-size: 20px;
+	color: #555;
+	text-align: center;
+}
+.comming-camps .new-camp button {
+	display: inline-block;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.comming-camps .new-camp button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.comming-camps .new-camp button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.comming-camps .new-camp button:hover span {padding-right: 25px;}
+
+.comming-camps .new-camp button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* End comming-Camps */
+/* Start Register */
+.register {
+	background-color: #fff;
+	overflow: hidden;
+	margin: 30px 0;
+	display: none;
+	-webkit-transition: display 4s ease;
+  -moz-transition: display 4s ease;
+  -o-transition: display 4s ease;
+   transition: display 4s ease;
+}
+.register .content {width: 50%;}
+.register .content p {
+	font-size: 17px;
+	border: 1px solid #555555;
+	border-radius: 10px;
+	padding: 5px 20px;
+	background-color: #4CAF59;
+	color: #fff;
+}
+.register .data-for-enroll {width: 50%;margin-top: 60px;}
+.register .data-for-enroll label {
+	width: 100px;
+	font-size: 18px;
+	padding: 5px;
+	margin-left: 40px;
+}
+.register .data-for-enroll input {width: 250px;margin: 20px 10px;}
+.register .data-for-enroll span {font-size: 20px;color: red;}
+.register .data-for-enroll hr {
+	margin: 20px 0 ;
+	background-color: #999;
+	height: 1px;
+	border: 0;
+	margin-left: 40px;
+}
+.register .data-for-enroll p {font-size: 20px;margin-left: 40px;}
+.register .data-for-enroll button {
+	margin: 20px 20px 20px 80%;
+	padding: 10px;
+	font-size: 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	border-radius: 10px;
+}
+/* End Register */
+/* Start Testimonials */
+.testim {
+	background: url('../imgs/img13.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 400px;
+	position: relative;
+	text-align: center;
+	padding: 80px 0;
+}
+
+.testim .t-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: rgba(0, 0, 0, .5);
+}
+.testim h2 {font-size: 35px;margin-top: 80px;color: #fff;}
+.testim q {
+	font-size: 20px;
+	line-height: 2;
+	color: #D0D0D0;
+	display: block;
+	margin-top: 60px;
+}
+.testim p {font-size: 25px;color: #1abc9c;}
+.testim .slider > div {display: none;}
+.testim .slider .active {display: block;}
+/* End Testimonials */
+/* start footer*/
+.footer {
+	background-color: #fff;
+	color: #555555;
+	padding: 20px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.footer ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0 0 10px 0;
+}
+.footer ul li {display: inline-block;margin-right: 5px;}
+/* end footer*/
+/* start my Framework */
+.container {width: 1200px;margin : auto;}
+.clearfix {clear:both;}
+.fl-left {float: left;}
+.header, .navbar, .about-me, .camp, .our-events,
+.comming-events, .register, .testim, .footer {min-width: 1200px;}
+/* end my Framework */
